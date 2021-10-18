@@ -1,6 +1,5 @@
 /*
  * Test.cpp
- *
  * Created: 6.10.2021 12:03:10
  * Author : lukas
  */ 
@@ -18,7 +17,7 @@ int main(void)
 		DDRD |= (1<<PORTD5); 
 		 
 //	comment
-	
+// novy koment
     /* Replace with your application code */
     while (1) 
     {
