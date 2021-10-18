@@ -18,6 +18,8 @@ int main(void)
 		DDRD |= (1<<PORTD5); 
 	#else
 		 
+//	comment
+	
 	#endif
     /* Replace with your application code */
     while (1) 
