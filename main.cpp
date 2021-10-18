@@ -7,20 +7,18 @@
 
 #include <avr/io.h>
 
-#define BOARD_TYPE 2017
+#define BOARD_TYPE 2018
 
 int main(void)
 {
 	
-	#if BOARD_TYPE == 2018
+
 		DDRD |= (1<<PORTD6);
 		DDRD |= (1<<PORTD3); 
 		DDRD |= (1<<PORTD5); 
-	#else
 		 
 //	comment
 	
-	#endif
     /* Replace with your application code */
     while (1) 
     {
